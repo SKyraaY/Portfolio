@@ -1,0 +1,53 @@
+@import url('composant/img.css');
+@import url('composant/menu.css');
+@import url('composant/resp.css');
+@import url('composant/texte.css');
+
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+main {
+	height: 100%;
+	position:relative;
+	background: linear-gradient(pink, blue);
+}
+
+a{
+	color: white;
+}
+
+a:hover{
+	color: red;
+}
+
+header{
+	display: flex;
+    height: 100px;
+	background-color: black;
+}
+
+.presentation{
+	margin-top: 5%;
+	margin-bottom: 15%;
+}
+
+.animation{
+	padding-top: 4%;
+}
+
+.crea{
+	margin-bottom: 30%;
+}
+
+footer {
+	background-color: black;
+	width: 100%;
+	height: 100px;
+}

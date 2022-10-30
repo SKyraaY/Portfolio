@@ -1,0 +1,52 @@
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.presentation{
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: center;
+}
+
+.titrepresentation{
+    margin-bottom: 6%;
+    text-align: center;
+    font-size: larger;
+    border-style: ridge;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: black;
+}
+
+.nomdc{
+    font-size: x-large;
+}
+
+.animtitre{
+    text-align: center;
+    padding-bottom: 3%;
+    text-decoration: underline;
+}
+
+.devtitre{
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 3%;
+    padding-top: 3%;
+}
+
+.creatitre{
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 3%;
+    padding-top: 3%;
+}

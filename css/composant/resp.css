@@ -1,0 +1,46 @@
+@media all and (min-device-width: 320px){
+	.accueil{
+		align-items: center;
+	}
+	
+	.nomdc{
+		text-align: center;
+	}
+
+	.fondrond{
+		align-items: center;
+		animation: slideLeft 10s infinite;
+	}
+
+
+	@keyframes slideLeft{
+		from{
+			transform: translate(3%);
+			transform: skewY(10deg);
+		}
+		to{
+			transform: translate(-10%);
+		}
+	}
+}
+
+@media all and (min-device-width: 450px) {
+	.accueil{
+		display: flex;
+		height: 100%;
+	}
+	
+	.fondrond{
+		animation: slideLeft 2s infinite;
+	}
+	
+	@keyframes slideLeft{
+		from{
+			transform: translate(3%);
+			transform: skewY(10deg);
+		}
+		to{
+			transform: translate(-8%);
+		}
+	}
+}
